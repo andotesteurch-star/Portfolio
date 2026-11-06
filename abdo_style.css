@@ -1,0 +1,94 @@
+*{
+    background-color: bisque;
+}
+.pages{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+padding: 15px;
+    background-color: brown ;
+    margin: 0;
+    
+  
+}
+.pages a {
+    color: white;
+    text-decoration: none;
+background-color: brown;
+}
+.pages a:hover{
+   color: #ffd700;
+   background-color: #5a2a2a;
+}
+.hero-section{
+    text-align: center;
+    padding: 50px 20px;
+    font-family: arial, sans-serif;
+}
+.hero-section h2{
+    color: #333;
+    margin-bottom: 15px;
+}
+.profil-image{
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50% ;
+    border: 2px solid brown;
+    margin-bottom: 20px;
+    box-shadow: 0 4px rgba(0, 0, 0, 1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+form.hero-section{
+    display: block;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+background-color: #ffffff;
+border-radius: 8px;
+box-shadow: 0 4px rgba(0, 0, 0, 1);
+text-align: center;
+}
+.hero-section input,
+.hero-section textarea,
+.hero-section button {
+    display: block;          /* جعل كل عنصر في سطر مستقل */
+    width: 100%;             /* أخذ عرض النموذج كاملاً */
+    margin-bottom: 15px;     /* مسافة فاصلة بين الحقول */
+    padding: 10px;           /* مساحة مريحة للكتابة داخل الحقل */
+    box-sizing: border-box;  /* لضمان عدم خروج الحواف عن الإطار */
+    border: 1px solid #ccc;  /* إطار خفيف رمادي */
+    border-radius: 5px;      /* حواف دائرية للحقول */
+    font-size: 15px;
+}
+form.hero-section {
+    height: auto;             /* يسمح للإطار الأبيض بالتمدد حسب المحتوى */
+    min-height: fit-content;  /* يتأكد من احتواء جميع العناصر */
+    overflow: hidden;         /* يمنع خروج أي عنصر عن الحواف */
+}
+.hero-section textarea {
+    max-width: 100%;          /* يمنع اتساع الحقل أكبر من الكارت الأبيض */
+    resize: vertical;         /* يتيح للتكبير أن يكون عمودياً فقط وليس أفقياً */
+}
+.hero-section button {
+    background-color: brown;  /* لون بني متناسق مع الموقع */
+    color: white;             /* لون الخط أبيض */
+    border: none;             /* إزالة الإطار الافتراضي */
+    cursor: pointer;          /* تحويل المؤشر إلى شكل اليد عند الوقوف عليه */
+    font-weight: bold;
+    transition: background 0.3s; /* تأثير انتقال سلس للون */
+}
+
+.hero-section button:hover {
+    background-color: #5a2a2a; /* يتغير إلى بني غامق عند مرور الفأرة */
+}
+.hero-section textarea {
+    resize: none; /* تمنع المستخدم من تغيير حجم مربع النص */
+}
+form.hero-section h2 {
+    background-color: #ffffff !important; /* خلفية بيضاء صافية للبطاقة */
+}
